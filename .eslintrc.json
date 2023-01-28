@@ -1,6 +1,7 @@
 {
   "env": {
     "browser": true,
+    "cypress/globals": true,
     "node": true
   },
   "parserOptions": {
@@ -13,6 +14,7 @@
   },
   "parser": "@babel/eslint-parser",
   "plugins": [
+    "cypress",
     "react"
   ],
   "extends": [
